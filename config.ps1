@@ -1,0 +1,5 @@
+$groupname = 'Test Member'
+$inviteCsv = '.\azure_ad_b2b.csv'
+$inviteRedirectUrl = 'https://members.dotnetfoundation.org/Profile'
+$emailFrom = 'jon@dotnetfoundation.org'
+$emailSubject = '.NET Foundation: Please Activate Your Membership'

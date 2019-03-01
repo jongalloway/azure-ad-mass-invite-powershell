@@ -62,6 +62,7 @@ foreach ($email in $invitations) {
         -replace "{{name}}", $email.Name `
         -replace "{{action}}", $inviteurl
   
+    #This doesn't work with MFA, convert to graph
     Send-MailMessage `
         -Attachments .\header.png, .\footer.png `
         -Body $emailbody `
